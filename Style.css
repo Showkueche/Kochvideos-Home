@@ -24,7 +24,7 @@
     left: 25vw;
     top: 30vh;
     width: 50vw; /* Set width relative to viewport width */
-    height: 45vh; /* Set height relative to viewport height */
+    height: 100vh; /* Set height relative to viewport height */
     overflow: hidden;
 }
 
