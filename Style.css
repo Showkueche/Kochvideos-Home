@@ -18,7 +18,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    border: none; /* Remove the border */
+    border: solid; /* Remove the border */
 }
 
 #kategorien {
