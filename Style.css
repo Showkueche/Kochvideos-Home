@@ -41,8 +41,16 @@ body  		{
    		top: 30%; /* 30% of the viewport height */
     		width: 100%;
     		height: 50%; /* 50% of the viewport height */
+		overflow: hidden;
 		
 	}
+#kategorien::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for webkit-based browsers */
+}
+
+#kategorien {
+    scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
 
 	
 	#kategorienhintergrund {
