@@ -32,6 +32,7 @@ body  		{
     		top: 0;
     		left: 0;
     		border: solid; /* Remove the border */
+		border-color: black;
 	}
 
 	#kategorien {
