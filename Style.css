@@ -21,22 +21,22 @@ body  		{
 		z-index: -1000;
 		overflow: hidden;
 	}
-#kategorienh1 {
-    background-color: white;
-    width: 100%;
-    height: 30vh; /* 30% of the viewport height */
-    position: fixed;
-    top: 0;
-    left: 0;
-    border: none; /* Remove the border */
-}
+	#kategorienh1 {
+   		background-color: white;
+  		width: 100%;
+ 		height: 30vh; /* 30% of the viewport height */
+  		position: fixed;
+    		top: 0;
+    		left: 0;
+    		border: none; /* Remove the border */
+	}
 
-#kategorien {
-    position: fixed;
-    top: 30vh; /* 30% of the viewport height */
-    width: 100%;
-    height: 50vh; /* 50% of the viewport height */
-}
+	#kategorien {
+    		position: fixed;
+   		top: 30vh; /* 30% of the viewport height */
+    		width: 100%;
+    		height: 50vh; /* 50% of the viewport height */
+	}
 	
 	#kategorienhintergrund {
 		background-image: url("https://drive.google.com/uc?id=1A6U0pBN3R3Q9RhAdfUQsOlY_bxHPFk5j");
