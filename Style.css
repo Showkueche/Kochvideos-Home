@@ -66,14 +66,7 @@ body {
     margin: 10px 0;
 }
 
-/* Media Query for Smaller Screens */
-@media (max-width: 768px) {
-    #kategorienbutton {
-        width: 90%;
-    }
-    #personenbutton {
-        width: 90%;
-    }
+
 }
 </style>
 </head>
