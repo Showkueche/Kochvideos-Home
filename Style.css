@@ -26,6 +26,7 @@
     width: 50vw; /* Set width relative to viewport width */
     height: 100vh; /* Set height relative to viewport height */
     overflow: hidden;
+    scrollbar-width: none;
 }
 
 #kategorien::-webkit-scrollbar {
