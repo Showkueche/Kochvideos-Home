@@ -70,7 +70,7 @@
 }
 
 #personenbutton {
-    botto: 2vh;
+    botto: 5vh;
     background-color: dimgrey;
     font-family: "Algerian";
     font-weight: bold;
@@ -81,7 +81,7 @@
 }
 
 #personenbutton:hover {
-    bottom: 2vh;
+    bottom: 5vh;
     font-size: 4vw; /* Set font size relative to viewport width */
     width: 30vw; /* Set width relative to viewport width */
     border: none;
