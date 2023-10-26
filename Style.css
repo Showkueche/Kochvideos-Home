@@ -23,7 +23,7 @@
 
 #kategorien {
     position: fixed;
-    left: 10vw;
+  
     top: 25vh;
     width: 50vw; /* Set width relative to viewport width */
     height: 100vh; /* Set height relative to viewport height */
