@@ -75,7 +75,7 @@ body  		{
 		height: 10%;
 		width: 100%;
 		border-style: none;
-		position: fixed;
+		position: relative;
 		bottom: 0;
 		left: 0;
 		left: 0;
