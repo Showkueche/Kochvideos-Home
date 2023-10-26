@@ -21,7 +21,7 @@
 
 #kategorien {
     left: 25vw;
-    top: 30vh;
+    top: 10vh;
     width: 50vw; /* Set width relative to viewport width */
     height: 100vh; /* Set height relative to viewport height */
     overflow: hidden;
