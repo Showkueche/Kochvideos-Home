@@ -1,135 +1,82 @@
-<html>
-<head>
-<style>
-body  		{
-	background-image: url('');
-	background-size: 100%;
-			}
-	
-	button 	{
-		background-color:#A9F5BC;
-			}
-			
-	#myVideo{
-		position: fixed;
-		top: 0px;
-		right: 0px;
-		min-width: 100%;
-		min-height: 100%;
-		max-width: 100%;
-		max-height: 100%;
-		object-fit: cover;
-		z-index: -1000;
-		
-	}
-	#kategorienh1 {
-		z-index: 3;
-   		background-color: white;
-  		width: 100%;
- 		height: 30%; /* 30% of the viewport height */
-  		position: fixed;
-    		top: 0;
-    		left: 0;
-    		border: solid; /* Remove the border */
-		border-color: black;
-	}
-
-	#kategorien {
-		z-index: 1;
-    		position: relative;
-   		top: 30%; /* 30% of the viewport height */
-    		width: 100%;
-    		height: 50%; /* 50% of the viewport height */
-		overflow: hidden;
-		
-	}
-	#kategorien::-webkit-scrollbar {
-    		display: none; /* Hide the scrollbar for webkit-based browsers */
-	}
-
-	#kategorien {
-    		scrollbar-width: none; /* Hide the scrollbar for Firefox */
-	}
-
-	
-	#kategorienhintergrund {
-		background-image: url('Holzhintergrund.png');
-		background-size: 100%;
-		width: 30%;
-		height: 100%;
-		overflow: auto;
-		
-		
-		
-	}
-	#kategorienbutton {
-		width:70%;
-		height:relative;
-		border-style: none;
-	}
-	#kategorienbutton:hover {
-		width:70%;
-		height:relative;
-		-webkit-filter: brightness(120%);
-		-webkit-transition: all 0,5s ease;
-		-moz-transition: all 0,5s ease;
-		-o-transition: all 0,5s ease;
-		-ms-transition: all 0,5s ease;
-		-transition: all 0,5s ease;
-		
-		
-		
-	}
-	
-	
-	#personen {
-		z-index: 2;
-		background-color: rgba(0, 0, 0, 0.5); /* 0.1 represents 10% opacity */
-		height: 10%;
-		width: 100%;
-		border-style: none;
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		left: 0;
-		background-repeat: repeat;
-		
-		
-	}
-	#personenbutton {
-		background-color: dimgrey;
-		font-family: "Algerian";
-		font-weight: bold;
-		font-size: 200%;
-		width: 30%;
-		height: relative;
-		border-style: none;
-		position: fixed;
-	}
-	
-	#personenbutton:hover {
-		font-size: 200%;
-		width: 30%;
-		height: relative;
-		border-style: none;
-		-webkit-filter: brightness(120%);
-		-webkit-transition: all 0,5s ease;
-		-moz-transition: all 0,5s ease;
-		-o-transition: all 0,5s ease;
-		-ms-transition: all 0,5s ease;
-		-transition: all 0,5s ease;
-	}
-	
-	
-	}
-	.button {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw; /* Set width relative to viewport width */
+    height: 100vh; /* Set height relative to viewport height */
+    z-index: -1000;
+    overflow: hidden;
 }
 
-</style>
-</head>
-<body>
-</body>
-</html>
+#kategorienh1 {
+    background-color: white;
+    width: 100vw; /* Set width relative to viewport width */
+    height: 10vh; /* Set height relative to viewport height */
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: none; /* Remove the border */
+}
+
+#kategorien {
+    position: relative;
+    width: 100vw; /* Set width relative to viewport width */
+    height: 90vh; /* Set height relative to viewport height */
+    overflow: hidden;
+}
+
+#kategorien::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for webkit-based browsers */
+}
+
+#kategorien {
+    scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
+
+#kategorienhintergrund {
+    background-image: url('Holzhintergrund.png');
+    background-size: cover; /* Adjust background size for full coverage */
+    width: 30vw; /* Set width relative to viewport width */
+    height: 100vh; /* Set height relative to viewport height */
+    overflow: auto;
+}
+
+#kategorienbutton {
+    width: 50%;
+    height: auto; /* Reset height to be automatic */
+    border: none;
+}
+
+#kategorienbutton:hover {
+    width: 50%;
+    -webkit-filter: brightness(120%);
+    transition: all 0.5s ease; /* Simplify transition property */
+}
+
+#personen {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw; /* Set width relative to viewport width */
+    height: 10vh; /* Set height relative to viewport height */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2; /* Place this element above kategorienbutton */
+}
+
+#personenbutton {
+    background-color: dimgrey;
+    font-family: "Algerian";
+    font-weight: bold;
+    font-size: 4vw; /* Set font size relative to viewport width */
+    width: 30vw; /* Set width relative to viewport width */
+    height: auto; /* Reset height to be automatic */
+    border: none;
+}
+
+#personenbutton:hover {
+    font-size: 4vw; /* Set font size relative to viewport width */
+    width: 30vw; /* Set width relative to viewport width */
+    border: none;
+    -webkit-filter: brightness(120%);
+    transition: all 0.5s ease; /* Simplify transition property */
+}
