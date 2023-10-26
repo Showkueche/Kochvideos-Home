@@ -19,7 +19,7 @@
 }
 
 #kategorien {
-    position: relative;
+    position: middle;
     width: 100vw; /* Set width relative to viewport width */
     height: 90vh; /* Set height relative to viewport height */
     overflow: hidden;
