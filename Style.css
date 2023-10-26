@@ -48,7 +48,7 @@
 }
 
 #kategorienbutton {
-    top: 25vh;
+    top: 12vh;
     width: 35vw;
     height: auto; /* Reset height to be automatic */
     border: none;
@@ -72,7 +72,7 @@
 }
 
 #personenbutton {
-    botto: 10vh;
+    bottom: 10vh;
     background-color: dimgrey;
     font-family: "Algerian";
     font-weight: bold;
