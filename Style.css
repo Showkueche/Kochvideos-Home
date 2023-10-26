@@ -104,6 +104,7 @@ body  		{
 		width: 30%;
 		height: relative;
 		border-style: none;
+		position: fixed;
 	}
 	
 	#personenbutton:hover {
