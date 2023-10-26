@@ -39,7 +39,7 @@ body  		{
 		z-index: 1;
     		position: relative;
    		top: 30%; /* 30% of the viewport height */
-    		width: 100%;
+    		width: 40%;
     		height: 50%; /* 50% of the viewport height */
 		overflow: hidden;
 		
