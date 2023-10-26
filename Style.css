@@ -10,7 +10,8 @@
 }
 
 #kategorienh1 {
-    background-color: white;
+    background-image: url('Logo.png');
+    background-size: contain;
     width: 100vw; /* Set width relative to viewport width */
     height: 10vh; /* Set height relative to viewport height */
     position: fixed;
