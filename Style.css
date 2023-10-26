@@ -55,7 +55,7 @@
 }
 
 #kategorienbutton:hover {
-    width: 50%;
+    width: 35vw;
     -webkit-filter: brightness(120%);
     transition: all 0.5s ease; /* Simplify transition property */
 }
