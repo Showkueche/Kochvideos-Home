@@ -48,13 +48,12 @@
 }
 
 #kategorienbutton {
-    transform: translate(-50%, -50%);
-    position: middle;
+   
     top: 25vh;
     width: 35vw;
     height: auto; /* Reset height to be automatic */
     border: none;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    
 }
 
 #kategorienbutton:hover {
