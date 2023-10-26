@@ -37,7 +37,7 @@
 
 #kategorienhintergrund {
     background-image: url('Holzhintergrund.png');
-    background-size: cover; /* Adjust background size for full coverage */
+    background-size: contain; /* Adjust background size for full coverage */
     width: 40vw; /* Set width relative to viewport width */
     height: 100vh; /* Set height relative to viewport height */
     overflow: auto;
