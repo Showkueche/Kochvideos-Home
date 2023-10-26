@@ -28,6 +28,7 @@
     height: 100vh; /* Set height relative to viewport height */
     overflow: hidden;
     scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 #kategorien::-webkit-scrollbar {
