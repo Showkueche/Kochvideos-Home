@@ -6,6 +6,7 @@
     height: 100vh; /* Set height relative to viewport height */
     z-index: -1000;
     overflow: hidden;
+    object-fit: cover;
 }
 
 #kategorienh1 {
