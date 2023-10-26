@@ -65,8 +65,7 @@ body  		{
 	}
 	#kategorienbutton {
 		width:50%;
-		height:40%;
-		max-height: 40%;
+		height:relative;
 		border-style: none;
 	}
 	#kategorienbutton:hover {
