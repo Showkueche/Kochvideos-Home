@@ -40,6 +40,9 @@ body  		{
     		height: 50%; /* 50% of the viewport height */
 		overflow: hidden;
 	}
+	#kategorien::-webkit-scrollbar {
+  		width: 0px; /* Set the width of the scrollbar */
+	}
 	
 	#kategorienhintergrund {
 		background-image: url("https://drive.google.com/uc?id=1A6U0pBN3R3Q9RhAdfUQsOlY_bxHPFk5j");
