@@ -70,7 +70,7 @@ body  		{
 	
 	a
 	#personen {
-		
+		z-index: 1;
 		background-color: rgba(0, 0, 0, 0.5); /* 0.1 represents 10% opacity */
 		height: 10%;
 		width: 100%;
