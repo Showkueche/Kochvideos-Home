@@ -50,6 +50,7 @@
 
 #kategorienbutton {
     position: fixed;
+    position: middle;
     width: 35vw;
     height: auto; /* Reset height to be automatic */
     border: none;
