@@ -30,6 +30,7 @@
     overflow: hidden;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    border: solid;
 }
 
 #kategorien::-webkit-scrollbar {
