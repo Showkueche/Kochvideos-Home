@@ -23,7 +23,6 @@
 
 #kategorien {
     position: fixed;
-  
     top: 25vh;
     width: 50vw; /* Set width relative to viewport width */
     height: 100vh; /* Set height relative to viewport height */
@@ -51,6 +50,7 @@
 #kategorienbutton {
     position: fixed;
     position: middle;
+    top: 25vh;
     width: 35vw;
     height: auto; /* Reset height to be automatic */
     border: none;
