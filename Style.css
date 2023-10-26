@@ -103,7 +103,7 @@ body  		{
 		font-weight: bold;
 		font-size: 200%;
 		width: 30%;
-		height: 94px;
+		height: relative;
 		border-style: none;
 	}
 	
