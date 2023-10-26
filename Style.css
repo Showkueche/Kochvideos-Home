@@ -110,7 +110,7 @@ body  		{
 	#personenbutton:hover {
 		font-size: 200%;
 		width: 30%;
-		height: 94px;
+		height: relative;
 		border-style: none;
 		-webkit-filter: brightness(120%);
 		-webkit-transition: all 0,5s ease;
