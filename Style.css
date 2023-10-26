@@ -55,7 +55,7 @@ body  		{
 	
 	#kategorienhintergrund {
 		background-image: url('Holzhintergrund.png');
-		background-size: 100%;
+		background-size: 30%;
 		width: 30%;
 		height: 120%;
 		overflow: auto;
