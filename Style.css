@@ -91,8 +91,6 @@
 
 #personenbutton:hover {
 
-    font-size: 4vw; /* Set font size relative to viewport width */
-    width: 30vw; /* Set width relative to viewport width */
-    webkit-filter: brightness(200%);
+    filter: brightness(200%);
     transition: all 0.5s ease; /* Simplify transition property */
 }
