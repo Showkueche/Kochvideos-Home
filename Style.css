@@ -79,6 +79,8 @@
 #personenbutton {
     bottom: 5vh;
     background-image: url('Button.png');
+    width: 30vw;
+    height: relative;
     font-family: "Algerian";
     font-weight: bold;
     font-size: 4vw; /* Set font size relative to viewport width */
@@ -90,6 +92,8 @@
 #personenbutton:hover {
     bottom: 5vh;
     background-image: url('Button.png');
+    width: 30vw;
+    height: relative;
     font-family: "Algerian";
     font-weight: bold;
     font-size: 4vw; /* Set font size relative to viewport width */
