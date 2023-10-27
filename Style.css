@@ -11,6 +11,7 @@
 
 #kategorienh1 {
     background-image: url('Logo.png');
+    background-image: linear-gradient(to top, transparent 0%, #FF8000 50%)
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw; /* Set width relative to viewport width */
