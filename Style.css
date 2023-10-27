@@ -65,7 +65,8 @@
 }
 
 #personen {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('Wand.jpeg');
+    background-repeat: repeat;
     width: 100vw; /* Set width relative to viewport width */
     height: 10vh; /* Set height relative to viewport height */
     position: fixed;
@@ -76,13 +77,13 @@
 
 #personenbutton {
     bottom: 10vh;
-    background-color: dimgrey;
+    background-image: url('Button.png');
     font-family: "Algerian";
     font-weight: bold;
     font-size: 4vw; /* Set font size relative to viewport width */
     width: 30vw; /* Set width relative to viewport width */
     height: auto; /* Reset height to be automatic */
-    border: none;
+    border: 2vw solid;
 }
 
 #personenbutton:hover {
