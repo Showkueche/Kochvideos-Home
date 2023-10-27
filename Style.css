@@ -91,6 +91,6 @@
 
 #personenbutton:hover {
 
-    filter: brightness(200%);
+    filter: brightness(120%);
     transition: all 0.5s ease; /* Simplify transition property */
 }
