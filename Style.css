@@ -10,16 +10,16 @@
 }
 
 #kategorienh1 {
-    background-image: url('Logo.png');
-    background-image: linear-gradient(to top, transparent 0%, #FF8000 50%)
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100vw; /* Set width relative to viewport width */
-    height: 10vh; /* Set height relative to viewport height */
+    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8000 50%);
+    background-size: contain, auto; /* Set the size for both background images */
+    background-repeat: no-repeat, no-repeat; /* Prevent background images from repeating */
+    background-position: center, center; /* Center the background images horizontally and vertically */
+    width: 100vw;
+    height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
-    border: none; /* Remove the border */
+    border: none;
 }
 
 #kategorien {
