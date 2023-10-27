@@ -10,7 +10,7 @@
 }
 
 #kategorienh1 {
-    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8000 50%);
+    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #B45F04 50%);
     background-size: contain, auto; /* Set the size for both background images */
     background-repeat: no-repeat, no-repeat; /* Prevent background images from repeating */
     background-position: top, center; /* Center the background images horizontally and vertically */
@@ -77,7 +77,7 @@
 }
 
 #personenbutton {
-  
+    bottom: 10vh;
     background-image: url('Button.png');
     font-family: "Algerian";
     font-weight: bold;
