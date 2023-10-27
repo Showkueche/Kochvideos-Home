@@ -83,11 +83,12 @@
     font-size: 4vw; /* Set font size relative to viewport width */
     width: 30vw; /* Set width relative to viewport width */
     height: auto; /* Reset height to be automatic */
-    border: 2vw solid;
+    border: 0.4vw solid;
 }
 
 #personenbutton:hover {
     bottom: 10vh;
+    border: 0.4vw solid;
     font-size: 4vw; /* Set font size relative to viewport width */
     width: 30vw; /* Set width relative to viewport width */
     border: none;
