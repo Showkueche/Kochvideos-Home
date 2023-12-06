@@ -15,7 +15,7 @@
     background-repeat: no-repeat, no-repeat; /* Prevent background images from repeating */
     background-position: top, center; /* Center the background images horizontally and vertically */
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
