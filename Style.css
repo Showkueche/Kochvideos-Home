@@ -31,7 +31,7 @@
     height: 100vh; /* Set height relative to viewport height */
     overflow: hidden;
     scrollbar-width: none;
-    -ms-overflow-style: none;
+    ms-overflow-style: none;
     border: none;
 }
 
@@ -54,7 +54,7 @@
 #kategorienbutton {
     top: 12vh;
     width: 25vw;
-    height: auto; /* Reset height to be automatic */
+    height: relative; /* Reset height to be automatic */
     border: none;
     
 }
@@ -68,25 +68,25 @@
 #personen {
     background-image: url('Wand.jpeg');
     background-repeat: repeat;
-    width: 100vw; /* Set width relative to viewport width */
-    height: relative; /* Set height relative to viewport height */
+    width: 100vw;
+    height: 12vh;
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 2; /* Place this element above kategorienbutton */
+    background-size: 20vh;
 }
 
 #personenbutton {
     bottom: 5vh;
     background-image: url('Button.png');
-    width: 30vw;
-    height: relative;
     font-family: "Algerian";
     font-weight: bold;
     font-size: 4vw; /* Set font size relative to viewport width */
     width: 30vw; /* Set width relative to viewport width */
     border-radius: 10px;
     border: 0.4vw solid;
+    background-size: contain;
 }
 
 #personenbutton:hover {
