@@ -78,15 +78,16 @@
 }
 
 #personenbutton {
-    bottom: 5vh;
     background-image: url('Button.png');
     font-family: "Algerian";
     font-weight: bold;
     font-size: 4vw; /* Set font size relative to viewport width */
     width: 30vw; /* Set width relative to viewport width */
-    border-radius: 10px;
+    height: 10vh;
+    border-radius: 1vw;
     border: 0.4vw solid;
     background-size: contain;
+    zoom: initial;
 }
 
 #personenbutton:hover {
