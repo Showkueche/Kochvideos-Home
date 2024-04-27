@@ -8,7 +8,8 @@
     overflow: hidden;
     object-fit: cover;
 }
-
+p::first-letter{
+    font-weight: bold}
 #kategorienh1 {
     background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, white 50%);    /* Orange: #B45F04 */
     background-size: contain, auto; /* Set the size for both background images */
