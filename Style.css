@@ -76,6 +76,8 @@ p::first-letter{
     left: 0;
     z-index: 2; /* Place this element above kategorienbutton */
     background-size: 20vh;
+    padding: 5px;
+    align-content: center;
 }
 
 #personenbutton {
