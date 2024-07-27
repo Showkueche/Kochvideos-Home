@@ -104,7 +104,8 @@ p::first-letter {
 /* Stile für mobile Geräte */
 @media (max-width: 768px) {
     #kategorienh1 {
-        background-size: 250% auto;
+        background-size: cover, auto;
+        height: 15vh; /* Größere Höhe für mobilen Header */
     }
 
     #kategorien {
@@ -132,9 +133,9 @@ p::first-letter {
     }
 
     #personenbutton {
-        font-size: 6vw; /* Größere Schriftgröße für mobile Buttons */
+        font-size: 4.5vw; /* Größere Schriftgröße für mobile Buttons */
         width: vw; /* Breitere Buttons auf mobilen Geräten */
-        height: 15vh; /* Größere Höhe für Buttons */
+        height: 12vh; /* Größere Höhe für Buttons */
         border-radius: 2vw; /* Größere Abrundung für mobile Geräte */
     }
     #kategorienbutton:hover {
