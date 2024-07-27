@@ -1,20 +1,24 @@
+/* Allgemeine Stile für alle Geräte */
 #myVideo {
     position: fixed;
     top: 0;
     right: 0;
-    width: 100vw; /* Set width relative to viewport width */
-    height: 100vh; /* Set height relative to viewport height */
+    width: 100vw;
+    height: 100vh;
     z-index: -1000;
     overflow: hidden;
     object-fit: cover;
 }
-p::first-letter{
-    font-weight: bold}
+
+p::first-letter {
+    font-weight: bold;
+}
+
 #kategorienh1 {
-    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #006600 50%);    /* Orange: #B45F04 */
-    background-size: contain, auto; /* Set the size for both background images */
-    background-repeat: no-repeat, no-repeat; /* Prevent background images from repeating */
-    background-position: top, center; /* Center the background images horizontally and vertically */
+    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #006600 50%);
+    background-size: contain, auto;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, center;
     width: 100vw;
     height: 10vh;
     position: fixed;
@@ -26,10 +30,10 @@ p::first-letter{
 #kategorien {
     position: fixed;
     top: 12vh;
-    left:25vw;
+    left: 25vw;
     right: 25vh;
-    width: 50vw; /* Set width relative to viewport width */
-    height: 100vh; /* Set height relative to viewport height */
+    width: 50vw;
+    height: 100vh;
     overflow: hidden;
     scrollbar-width: none;
     ms-overflow-style: none;
@@ -37,33 +41,32 @@ p::first-letter{
 }
 
 #kategorien::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar for webkit-based browsers */
+    display: none;
 }
 
 #kategorien {
-    scrollbar-width: none; /* Hide the scrollbar for Firefox */
+    scrollbar-width: none;
 }
 
 #kategorienhintergrund {
     background-image: url('Holzhintergrund.png');
-    background-size: contain; /* Adjust background size for full coverage */
-    width: 40vw; /* Set width relative to viewport width */
-    height: 90vh; /* Set height relative to viewport height */
+    background-size: contain;
+    width: 40vw;
+    height: 90vh;
     overflow: auto;
 }
 
 #kategorienbutton {
     top: 12vh;
     width: 25vw;
-    height: relative; /* Reset height to be automatic */
+    height: relative;
     border: none;
-    
 }
 
 #kategorienbutton:hover {
     width: 25vw;
     -webkit-filter: brightness(120%);
-    transition: all 0.5s ease; /* Simplify transition property */
+    transition: all 0.5s ease;
 }
 
 #personen {
@@ -74,7 +77,7 @@ p::first-letter{
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 2; /* Place this element above kategorienbutton */
+    z-index: 2;
     background-size: 20vh;
     padding: 5px;
     align-content: center;
@@ -84,8 +87,8 @@ p::first-letter{
     background-image: url('Button.png');
     font-family: "Algerian";
     font-weight: bold;
-    font-size: 4vw; /* Set font size relative to viewport width */
-    width: 30vw; /* Set width relative to viewport width */
+    font-size: 4vw;
+    width: 30vw;
     height: 10vh;
     border-radius: 1vw;
     border: 0.4vw solid;
@@ -94,7 +97,50 @@ p::first-letter{
 }
 
 #personenbutton:hover {
-
     filter: brightness(120%);
-    transition: all 0.5s ease; /* Simplify transition property */
+    transition: all 0.5s ease;
+}
+
+/* Stile für mobile Geräte */
+@media (max-width: 768px) {
+    #kategorienh1 {
+        background-size: cover, auto;
+        height: 15vh; /* Größere Höhe für mobilen Header */
+    }
+
+    #kategorien {
+        top: 18vh;
+        left: 5vw;
+        right: 5vw;
+        width: 90vw;
+        height: 80vh;
+    }
+
+    #kategorienhintergrund {
+        width: 65vw;
+        background-size: contain;
+        overflow: auto;
+    }
+
+    #kategorienbutton {
+        width: 40vw;
+        height: auto; /* Automatische Höhe für Button */
+    }
+
+    #personen {
+        height: 15vh; /* Mehr Platz für mobile Footer */
+        background-size: cover;
+    }
+
+    #personenbutton {
+        font-size: 6vw; /* Größere Schriftgröße für mobile Buttons */
+        width: vw; /* Breitere Buttons auf mobilen Geräten */
+        height: 15vh; /* Größere Höhe für Buttons */
+        border-radius: 2vw; /* Größere Abrundung für mobile Geräte */
+    }
+    #kategorienbutton:hover {
+        width: 50vw;
+        -webkit-filter: brightness(140%);
+        transition: all 0.3s ease; 
+}
 }
