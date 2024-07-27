@@ -104,8 +104,7 @@ p::first-letter {
 /* Stile für mobile Geräte */
 @media (max-width: 768px) {
     #kategorienh1 {
-        background-size: cover, auto;
-        height: 15vh; /* Größere Höhe für mobilen Header */
+        background-size: 250% auto;
     }
 
     #kategorien {
