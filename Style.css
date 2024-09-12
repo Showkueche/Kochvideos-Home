@@ -28,10 +28,14 @@ p::first-letter {
 }
 
 #kategorien {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    overflow: hidden;
+    position: fixed;
+    top: 12vh;
+    left: 25vw;
+    right: 25vh;
+    width: 50vw;
+    height: calc(100vh - 12vh - 12vh);
+    overflow-y: auto;
+    overflow: auto;
     scrollbar-width: none;
     ms-overflow-style: none;
     border: none;
