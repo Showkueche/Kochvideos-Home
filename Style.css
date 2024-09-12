@@ -28,7 +28,6 @@ p::first-letter {
 }
 
 #kategorien {
-    position: fixed;
     top: 12vh;
     left: 25vw;
     right: 25vh;
