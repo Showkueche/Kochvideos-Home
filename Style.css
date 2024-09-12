@@ -15,7 +15,7 @@ p::first-letter {
 }
 
 #kategorienh1 {
-    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8C00 50%); /*#006600*/
+    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8000 50%); /*#006600*/
     background-size: contain, auto;
     background-repeat: no-repeat, no-repeat;
     background-position: top, center;
