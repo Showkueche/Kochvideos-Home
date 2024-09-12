@@ -54,7 +54,7 @@ p::first-letter {
     background-size: contain;
     width: 40vw;
     height: 90vh;
-    overflow: none;
+    overflow: auto;
 }
 
 #kategorienbutton {
@@ -65,7 +65,6 @@ p::first-letter {
 }
 
 #kategorienbutton:hover {
-    width: 25vw;
     -webkit-filter: brightness(120%);
     transition: all 0.5s ease;
 }
@@ -109,12 +108,12 @@ p::first-letter {
         height: 15vh; /* Größere Höhe für mobilen Header */
     }
 
-    #kategorien {
+        #kategorien {
         top: 18vh;
         left: 5vw;
         right: 5vw;
         width: 90vw;
-        height: 80vh;
+        height: calc(100vh - 18vh - 15vh); /* Höhe für mobile Ansicht anpassen */
     }
 
     #kategorienhintergrund {
@@ -139,9 +138,4 @@ p::first-letter {
         height: 12vh; /* Größere Höhe für Buttons */
         border-radius: 2vw; /* Größere Abrundung für mobile Geräte */
     }
-    #kategorienbutton:hover {
-        width: 50vw;
-        -webkit-filter: brightness(140%);
-        transition: all 0.3s ease; 
-}
 }
