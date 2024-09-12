@@ -53,14 +53,6 @@ p::first-letter {
     overflow: none;
 }
 
-#kategorienbutton_top {
-    margin_top: 15vh;
-    top: 12vh;
-    width: 25vw;
-    height: relative;
-    border: none;
-}
-
 #kategorienbutton {
     top: 12vh;
     width: 25vw;
