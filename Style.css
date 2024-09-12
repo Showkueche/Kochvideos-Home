@@ -28,12 +28,9 @@ p::first-letter {
 }
 
 #kategorien {
-    position: fixed;
-    top: 12vh;
-    left: 25vw;
-    right: 25vh;
-    width: 50vw;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     overflow: hidden;
     scrollbar-width: none;
     ms-overflow-style: none;
@@ -53,7 +50,15 @@ p::first-letter {
     background-size: contain;
     width: 40vw;
     height: 90vh;
-    overflow: auto;
+    overflow: none;
+}
+
+#kategorienbutton_top {
+    margin_top: 15vh;
+    top: 12vh;
+    width: 25vw;
+    height: relative;
+    border: none;
 }
 
 #kategorienbutton {
