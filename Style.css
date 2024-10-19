@@ -54,6 +54,7 @@ p::first-letter {
 #kategorienhintergrund {
     background-image: url('Holzhintergrund.png');
     background-size: contain;
+    background-repeat: no-repeat;
     width: 40vw;
     height: 90vh;
     overflow: auto;
