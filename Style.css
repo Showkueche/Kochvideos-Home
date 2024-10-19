@@ -94,6 +94,8 @@ p::first-letter {
     border: 0.4vw solid;
     background-size: contain;
     zoom: initial;
+    text-align: center;
+    line-height: 1vh;
 }
 
 #personenbutton:hover {
