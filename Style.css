@@ -16,7 +16,7 @@ p::first-letter {
 
 #kategorienh1 {
     z-index: 1;
-    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #006600 50%); /*#FF8000*/
+    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #FAFAFA 50%); /*Halloween#FF8000 Sommer: #006600 Winter: #FAFAFA*/
     background-size: contain, auto;
     background-repeat: no-repeat, no-repeat;
     background-position: top, center;
