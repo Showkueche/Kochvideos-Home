@@ -16,7 +16,7 @@ p::first-letter {
 
 #kategorienh1 {
     z-index: 1;
-    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8000 50%); /*#006600*/
+    background-image: url('Logo.png'), linear-gradient(to top, transparent 0%, #006600 50%); /*#FF8000*/
     background-size: contain, auto;
     background-repeat: no-repeat, no-repeat;
     background-position: top, center;
@@ -107,7 +107,7 @@ p::first-letter {
 }
 
 /* Stile für mobile Geräte */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     #kategorienh1 {
         height: 20vh;
         background-size : 300%;
