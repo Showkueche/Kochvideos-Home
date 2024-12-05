@@ -20,7 +20,7 @@ function applySeasonTheme() {
 
     switch (season) {
         case 'spring':
-            video.src = "Schneefall1.mp4";  // Beispiel für Frühling
+            video.src = "Schneefall.mp4";  // Beispiel für Frühling
             body.style.backgroundColor = "#98FB98"; // Hellgrün für Frühling
             break;
         case 'summer':
@@ -28,11 +28,11 @@ function applySeasonTheme() {
             body.style.backgroundColor = "#FFD700"; // Goldgelb für Sommer
             break;
         case 'autumn':
-            video.src = "Herbstvideo.mp4";  // Beispiel für Herbst
+            video.src = "Halloween.mp4";  // Beispiel für Herbst
             body.style.backgroundColor = "#FF8C00"; // Dunkelorange für Herbst
             break;
         case 'winter':
-            video.src = "Wintervideo.mp4";  // Beispiel für Winter
+            video.src = "Schneefall1.mp4";  // Beispiel für Winter
             body.style.backgroundColor = "#ADD8E6"; // Hellblau für Winter
             break;
         default:
