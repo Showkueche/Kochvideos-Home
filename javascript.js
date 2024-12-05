@@ -21,23 +21,23 @@ function applySeasonTheme() {
     switch (season) {
         case 'spring':
             video.src = "Schneefall.mp4";  // Beispiel für Frühling
-            body.style.backgroundColor = "#98FB98"; // Hellgrün für Frühling
+            kategorienh1.style.backgroundImage = "url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8000 50%)"; // Frühling: orange für den Gradient
             break;
         case 'summer':
             video.src = "Sommervideo.mp4";  // Beispiel für Sommer
-            body.style.backgroundColor = "#FFD700"; // Goldgelb für Sommer
+            kategorienh1.style.backgroundImage = "url('Logo.png'), linear-gradient(to top, transparent 0%, #006600 50%)"; // Sommer: Grün für den Gradient
             break;
         case 'autumn':
             video.src = "Halloween.mp4";  // Beispiel für Herbst
-            body.style.backgroundColor = "#FF8C00"; // Dunkelorange für Herbst
+            kategorienh1.style.backgroundImage = "url('Logo.png'), linear-gradient(to top, transparent 0%, #FF8000 50%)"; // Herbst: orange für den Gradient
             break;
         case 'winter':
             video.src = "Schneefall1.mp4";  // Beispiel für Winter
-            body.style.backgroundColor = "#ADD8E6"; // Hellblau für Winter
+            kategorienh1.style.backgroundImage = "url('Logo.png'), linear-gradient(to top, transparent 0%, #FAFAFA 50%)"; // Winter: weiß für den Gradient
             break;
         default:
-            video.src = "default.mp4"; // Standardvideo
-            body.style.backgroundColor = "#FFFFFF"; // Standardfarbe
+            video.src = "Sommer.mp4"; // Standardvideo
+            kategorienh1.style.backgroundImage = "url('Logo.png'), linear-gradient(to top, transparent 0%, #FAFAFA 50%)"; // Winter: weiß für den Gradient
             break;
     }
 
